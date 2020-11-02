@@ -1,0 +1,87 @@
+/*
+ * Index Page Script Functions
+ * Created By Abdulrahman Elheyb.
+ * Date :   "10/22/2020"
+ * Time :   "10:45 PM"
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    height: 100vh;
+}
+
+#QuestionCount{
+    position: absolute;
+    margin-top: 12px;
+    border-radius: 0 12px 12px 0;
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 100px;
+}
+
+#QuestionID{
+    background-color: white;
+    padding-bottom: 1px;
+    color: black;
+    border-radius: 0 12px 12px 0;
+    width: 60px;
+    float: left;
+}
+
+#QuestionDiv{
+    background-color: #FBAB7E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #c850c0 100%);
+    height: 600px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+
+}
+
+hr{
+    border: 0;
+    background-color: black;
+    height: 2px;
+}
+
+#Answer{
+    margin: 25px auto 0 auto;
+    border-radius: 50px;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    bottom: 0;
+}
+#EmojiLi{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.EmojiButtons{
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    transition: 0.2s;
+}
+.EmojiButtons:hover{
+    opacity: 0.75;
+    transform: scale(1.2);
+}
+
+body section{
+    display: flex;
+    flex-direction: column;
+}
+
+

@@ -1,0 +1,96 @@
+/*
+ * Index Page Script Functions
+ * Created By Abdulrahman Elheyb.
+ * Date :   "10/22/2020"
+ * Time :   "10:45 PM"
+ */
+
+*{
+    font-family: Lucida Grande, 'Verdana, Geneva', Lucida, Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+
+#Form{
+    color: white;
+    height: 40px;
+    background-color: #208050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Score,#Question{
+    outline: none;
+    font-size: larger;
+    margin: 0 25px;
+    height: 28px;
+}
+
+#Exec{
+    text-align: center;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    height: 28px;
+    width: 100px;
+}
+#Exec:hover{
+    background-color: white;
+    color: #373B41;
+}
+#Exec:active{
+    border: 2px solid dodgerblue;
+}
+
+#DataDiv{
+    margin: 5px;
+}
+
+#DataTable{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption{
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    padding: 7px;
+    color: #77ccff;
+}
+
+tr{
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+#TableHRow{
+    background-color: #373B41;
+    border-top: 2px solid white;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+td{
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    font-weight: bold;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 20px 5px 5px;
+}
+
+#SingleData ,#MultiData{
+    display: none;
+}
