@@ -11,8 +11,8 @@ class DataAccess
     function __construct(){
         $servername = "localhost";
         $username = "schooladmin";
-        $password = "school+admin#";
-        $dbname = "School";
+        $password = "school+admin";
+        $dbname = "school";
 
         try {
             $this->con = new PDO("mysql:host=$servername;dbname=$dbname;charset=UTF8", "$username", "$password");
