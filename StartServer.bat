@@ -1,1 +1,1 @@
-php -S localhost:80
+START C:\"Program Files"\Git\git-bash.exe -c live-server

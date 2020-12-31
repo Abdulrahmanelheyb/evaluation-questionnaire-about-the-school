@@ -1,1 +1,1 @@
-taskkill /f /im php.exe
+taskkill /f /im C:\Program Files\Git\git-bash.exe
