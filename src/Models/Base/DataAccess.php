@@ -10,8 +10,8 @@ class DataAccess
     private ?PDO $con = null;
     function __construct(){
         $servername = "localhost";
-        $username = "schooladmin";
-        $password = "school+admin";
+        $username = "schoolserver";
+        $password = "School+admin3";
         $dbname = "school";
 
         try {
