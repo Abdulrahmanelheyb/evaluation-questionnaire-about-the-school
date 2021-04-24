@@ -1,1 +1,0 @@
-taskkill /f /im C:\Program Files\Git\git-bash.exe
